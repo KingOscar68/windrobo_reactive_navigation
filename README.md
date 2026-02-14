@@ -1,4 +1,5 @@
 WindRobo Reactive Navigation Project
+
 📌 Description
 
 This project implements a reactive navigation controller for a TurtleBot3 Burger robot using ROS 2.
@@ -30,20 +31,27 @@ src/
  └── windrobo_bringup/    # Launch configuration
 
  ⚙️ Installation
+ 
 1️⃣ Clone the repository
+
 git clone https://github.com/KingOscar68/windrobo_reactive_navigation.git
 cd windrobo_reactive_navigation
+
 2️⃣ Build the workspace
+
 colcon build
 source install/setup.bash
 
 
 🚀 Execution
+
 Terminal 1 – Launch simulation and controller
+
 export TURTLEBOT3_MODEL=burger
 ros2 launch windrobo_bringup navigation.launch.py
 
 Terminal 2 – Send goal coordinates
+
 source install/setup.bash
 ros2 run windrobo_py goal_publisher
 
