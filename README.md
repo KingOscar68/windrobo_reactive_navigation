@@ -24,11 +24,17 @@ Gazebo Version: 11.10.2
 Robot Model: TurtleBot3 Burger
 
 src/
+
  ├── windrobo_cpp/        # Reactive controller (C++)
+ 
  ├── windrobo_py/         # Goal publisher & waypoint tools (Python)
+ 
  ├── windrobo_sim/        # Random obstacle generator
+ 
  ├── windrobo_msgs/       # Custom ROS messages
+ 
  └── windrobo_bringup/    # Launch configuration
+ 
 
  ⚙️ Installation
  
